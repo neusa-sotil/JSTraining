@@ -1,2 +1,2 @@
 Do not change anything 
-this is the first test
+Repo should be empty to  run push command
