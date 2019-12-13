@@ -1,2 +1,3 @@
 Do not change anything 
-Repo should be empty to  run push command
+This is a practice to write js 
+you can open this examples on any browser
