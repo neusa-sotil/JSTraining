@@ -3,37 +3,20 @@
 <head>
     <title>Functions</title>
     <style type="text/css">
-        td.tverb {
+        font.cabecera {
+            background: rgb(45, 0, 128);
+            color: rgb(194, 205, 92);
+        }
+        input.cabecera1 {
             background: rgb(45, 0, 128);
             color: rgb(194, 205, 92);
         }
 
-        td.verb {
-            background: rgb(77, 62, 131);
-            color: indianred;
-            border: solid blueviolet;
-        }
     </style>
 </head>
 
 <body>
-    <font size=10 color=yellow>
-        this is a test
-    </font>
-    <table colspec="L20 L20" border="7">
-        <tr>
-            <td class=tverb>verb</td>
-            <td>meaning</td>
-        </tr>
-        <tr>
-            <td class=verb>afford</td>
-            <td>to have enough money to buy or pay for something</td>
-        </tr>
-        <tr>
-            <td class=verb>agree</td>
-            <td>to have or express the same opinion about something as someone else</td>
-        </tr>
-    </table>
+    <font class = cabecera>Square numbers</font>
     <script>
         function calcular(form) {
             if (confirm("Are you sure"))
@@ -48,14 +31,11 @@
         <br>
         <input type="text" name="expr" size="15">
         <p>
-            <input type="button" value="Calculate" onclick="calcular(this.form)">
-            <br>
-            <p>
-                Result:
-                <input type="text" name="result" size="15">
-                <br>
-                <HR size=3>
+        <input class=cabecera1 type="button" value="Calculate" onclick="calcular(this.form)"><br>
+        <p>
+    Result:
+        <input type="text" name="result" size="15"><br>
+        <HR size=3>
     </form>
 </body>
-
 </HTML>
